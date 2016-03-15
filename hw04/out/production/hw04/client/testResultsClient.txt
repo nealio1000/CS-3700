@@ -1,0 +1,34 @@
+Enter public ip / dns of server: 
+54.172.73.173
+Enter sender's email address: 
+nfriedma@msudenver.edu
+Enter receiver's email address: 
+nealiof1000@gmail.com
+Enter subject: 
+Hiiiiiiii
+Enter email contents: 
+Hello my name 
+is
+Neal J. Friedman
+.
+220 OK 54.172.73.173
+Telnet console opened: 
+HELO @msudenver.edu
+RTT: 240 msecs
+250 54.172.73.173 Hello /54.66.224.247
+MAIL FROM: <nfriedma@msudenver.edu>
+RTT: 241 msecs.
+250 2.1.0 Sender OK
+RCPT TO: <nealiof1000@gmail.com>
+RTT: 241 msecs.
+250 2.1.5 Recipient OK
+DATA
+RTT: 247 msecs.
+250 2.1.5 Recipient OK
+250 Message received and to be delivered
+RTT: 518 msecs.
+
+Would you like to continue? (y/n)
+n
+QUIT
+221 <54.172.73.173> closing connection

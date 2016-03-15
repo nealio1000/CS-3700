@@ -1,0 +1,73 @@
+Enter DNS or public ip of HTTP Server: 
+127.0.0.1
+TCP socket buildup RTT: 10 msecs.
+Enter HTTP method type: 
+dkd
+Enter name of HTM/L file: 
+CS3700.htm
+Enter HTTP Version: 
+HTTP/1.1
+Client: DKD /CS3700.htm HTTP/1.1
+Host: 127.0.0.1
+User-Agent: Mozilla/5.0
+
+
+
+
+Server: 
+HTTP Query RTT: 58msecs
+HTTP/1.1 400 Bad Request
+Date: 24/02/2015 19:55:50
+Server: whatsup
+Would you like to continue? (y/n)
+y
+
+Enter DNS or public ip of HTTP Server: 
+127.0.0.1
+TCP socket buildup RTT: 1 msecs.
+Enter HTTP method type: 
+get
+Enter name of HTM/L file: 
+dhfjdhjfd
+Enter HTTP Version: 
+HTTP/1.1
+Client: GET /dhfjdhjfd HTTP/1.1
+Host: 127.0.0.1
+User-Agent: Mozilla/5.0
+
+
+
+
+Server: 
+HTTP Query RTT: 1msecs
+HTTP/1.1 404 Not Found
+Date: 24/02/2015 19:56:04
+Server: whatsup
+Would you like to continue? (y/n)
+y
+
+Enter DNS or public ip of HTTP Server: 
+127.0.0.1
+TCP socket buildup RTT: 1 msecs.
+Enter HTTP method type: 
+get
+Enter name of HTM/L file: 
+CS3700.htm
+Enter HTTP Version: 
+HTTP/1.1
+Client: GET /CS3700.htm HTTP/1.1
+Host: 127.0.0.1
+User-Agent: Mozilla/5.0
+
+
+
+
+Server: 
+HTTP Query RTT: 39msecs
+HTTP/1.1 200 OK
+Date: 24/02/2015 19:56:16
+Server: whatsup
+Would you like to continue? (y/n)
+n
+
+Goodbye.
